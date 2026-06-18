@@ -1,0 +1,24 @@
+{
+  "data_dir": "BSDS300/images/train",
+  "n_images": 3,
+  "image_size": 256,
+  "patch_size": 8,
+  "n_train_patches": 6000,
+  "n_atoms": 256,
+  "sparsity": 6,
+  "ksvd_iter": 10,
+  "seed": 42,
+  "output_dir": "results",
+  "fast_mode": false,
+  "noise_levels": [
+    5,
+    10,
+    15,
+    25
+  ],
+  "selected_images": [
+    "118020_sigma10_clean.png",
+    "118020_sigma5_dct_omp.png",
+    "118020_sigma5_noisy.png"
+  ]
+}
